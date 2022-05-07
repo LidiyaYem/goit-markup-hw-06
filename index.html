@@ -491,26 +491,42 @@
                     <div class="form-field">
                     <label for="name" class="form-label">Имя</label>
                     <input type="text" class="form-input" name="Name" id="name" placeholder=" " autofocus/>
+                    <svg class="icon person" width="18px" height="18px">
+                        <use href="./images/icons.svg#icon-person-black">
+                        </use>
+                    </svg>    
                     </div>
 
                     <div class="form-field">
                     <label for="tel" class="form-label">Телефон</label>
                     <input type="tel" class="form-input" name="Phone" id="tel" placeholder=" "/>
+                    <svg class="icon" width="18px" height="18px">
+                        <use href="./images/icons.svg#icon-phone-black">
+                        </use>
+                    </svg>   
                     </div>
                     
                     <div class="form-field">
                     <label for="mail" class="form-label">Почта</label>
                     <input type="email" class="form-input" name="E-mail" id="mail" placeholder=" "/>
+                    <svg class="icon" width="18px" height="18px">
+                        <use href="./images/icons.svg#icon-email-black">
+                        </use>
+                    </svg>   
                     </div>
 
-                    <div class="form-field">
+                    <div class="form-field comment">
                         <label for="comment" class="form-label">Комментарий</label>
-                        <textarea class="form-input" name="comment" id="comment" placeholder="Введите текст" rows="5"></textarea>
+                        <textarea class="textarea" name="comment" id="comment" placeholder="Введите текст" rows="7"></textarea>
                     </div>
                     
                     <div class="form-field">
                         <input type="checkbox" name="Agreement" id="agree" value="signed"/>
-                        <label for="agree" class="form-label">Соглашаюсь с рассылкой и принимаю Условия договора</label> 
+                        <label for="agree" class="form-label">Соглашаюсь с рассылкой и принимаю <a href="" class="link current">Условия договора</a></label> 
+                        <svg class="icon check" width="16px" height="15px">
+                            <use href="./images/icons.svg#icon-check2">
+                            </use>
+                        </svg>
                     </div>
 
                     <button type="submit" class="button">
