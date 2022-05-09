@@ -1057,6 +1057,13 @@ ul {
     -moz-appearance: none;
     appearance: none;
     position: absolute;
+
+    width: 420px;
+    height: 24px;
+} 
+
+.checkbox-label {
+    display: block;
 }
 
 .icon.check {
